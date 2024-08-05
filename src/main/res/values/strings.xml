@@ -1,0 +1,78 @@
+<resources>
+    <!-- Application and Activity Titles -->
+    <string name="app_name">BagiWaris!</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_kalkulator_data_pewaris">Kalkulator Data Pewaris</string>
+    <string name="title_activity_kalkulator_data_ahli_waris">Kalkulator Data Ahli Waris</string>
+    <string name="title_activity_welcome_kalkulator">Welcome Kalkulator</string>
+
+    <!-- Data Pewaris Activity -->
+    <string name="title_activity_data_pewaris">Data Pewaris</string>
+    <string name="label_name">Nama :</string>
+    <string name="hint_name">Isi nama disini</string>
+    <string name="label_gender">Jenis Kelamin</string>
+    <string name="gender_male">Laki-laki</string>
+    <string name="gender_female">Perempuan</string>
+    <string name="label_marital_status">Status Pernikahan</string>
+    <string name="marital_status_married">Sudah menikah</string>
+    <string name="marital_status_single">Belum</string>
+    <string name="action_back">Kembali</string>
+    <string name="action_next">Lanjut</string>
+
+    <!-- Suami -->
+    <string name="suami_tidak_ada_anak">0.5</string>
+    <string name="suami_ada_anak">0.25</string>
+
+    <!-- Istri -->
+    <string name="istri_tidak_ada_anak">0.25</string>
+    <string name="istri_ada_anak">0.125</string>
+
+    <!-- Anak Perempuan -->
+    <string name="satu_anak_perempuan">0.5</string>
+    <string name="dua_atau_lebih_anak_perempuan">0.6667</string>
+
+    <!-- Ibu -->
+    <string name="ibu_tidak_ada_anak_saudara">0.3333</string>
+    <string name="ibu_ada_anak_saudara">0.1667</string>
+
+    <!-- Ayah -->
+    <string name="ayah_ada_anak">0.1667</string>
+
+    <!-- Kakek (dari pihak ayah) -->
+    <string name="kakek_ada_anak">0.1667</string>
+
+    <!-- Nenek (dari pihak ibu) -->
+    <string name="nenek_tidak_ada_ibu">0.1667</string>
+
+    <!-- Saudara Kandung Perempuan -->
+    <string name="satu_saudara_kandung_perempuan">0.5</string>
+    <string name="dua_atau_lebih_saudara_kandung_perempuan">0.6667</string>
+    <string name="saudara_kandung_perempuan_dengan_anak_perempuan">0.1667</string>
+
+    <!-- Saudara Seayah Perempuan -->
+    <string name="satu_saudara_seayah_perempuan">0.5</string>
+    <string name="dua_atau_lebih_saudara_seayah_perempuan">0.6667</string>
+    <string name="saudara_seayah_perempuan_dengan_anak_perempuan_saudara_kandung">0.1667</string>
+
+    <!-- Saudara Seibu -->
+    <string name="satu_saudara_seibu">0.1667</string>
+    <string name="dua_atau_lebih_saudara_seibu">0.3333</string>
+
+    <!-- Kondisi Pasangan -->
+    <string name="kondisi_pasangan">Kondisi Pasangan</string>
+    <string name="masih_hidup">Masih hidup</string>
+    <string name="cerai_hidup">Cerai Hidup</string>
+    <string name="cerai_mati">Cerai Mati</string>
+
+    <!-- Jumlah Anak -->
+    <string name="jumlah_anak_lk">Jumlah Anak Laki-laki</string>
+    <string name="jumlah_anak_pr">Jumlah Anak Perempuan</string>
+
+    <!-- Kondisi Orang Tua -->
+    <string name="orang_tua_pewaris">Kondisi Orang Tua</string>
+    <string name="bapak_hidup_ibu_hidup">Bapak Hidup, Ibu Hidup</string>
+    <string name="bapak_hidup_ibu_wafat">Bapak Hidup, Ibu Wafat</string>
+    <string name="bapak_wafat_ibu_hidup">Bapak Wafat, Ibu Hidup</string>
+    <string name="bapak_wafat_ibu_wafat">Bapak Wafat, Ibu Wafat</string>
+
+</resources>

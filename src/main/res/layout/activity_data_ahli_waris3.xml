@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bg2" />
+
+    <EditText
+        android:id="@+id/sdrkandung3"
+        android:layout_width="78dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="9dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="number"
+        android:saveEnabled="true"
+        android:textColor="#6B6969"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/sdrkandung5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/sdrkandung4"
+        tools:text="isi disini" />
+
+    <EditText
+        android:id="@+id/sdrkandung6"
+        android:layout_width="74dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="9dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="number"
+        android:saveEnabled="true"
+        android:textColor="#6B6969"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/sdrkandung"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/sdrkandung2"
+        tools:text="isi disini" />
+
+    <EditText
+        android:id="@+id/sdrkandung5"
+        android:layout_width="76dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="43dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="number"
+        android:saveEnabled="true"
+        android:textColor="#6B6969"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/lanjut3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/sdrkandung3"
+        tools:text="isi disini" />
+
+    <ImageButton
+        android:id="@+id/kembali3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginBottom="38dp"
+        android:backgroundTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/lanjut3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:srcCompat="@drawable/kiri" />
+
+    <ImageButton
+        android:id="@+id/lanjut3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="38dp"
+        android:backgroundTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/kembali3"
+        app:layout_constraintTop_toBottomOf="@+id/sdrkandung5"
+        app:srcCompat="@drawable/kanan" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/umum"
+        android:text="Jumlah Saudara"
+        android:textColor="#FFEB3B"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintEnd_toEndOf="@+id/textView15"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/sdrkandung"
+        android:layout_width="74dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="9dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="number"
+        android:saveEnabled="true"
+        android:textColor="#6B6969"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/sdrkandung4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView16"
+        app:layout_constraintTop_toBottomOf="@+id/sdrkandung6"
+        tools:text="isi disini" />
+
+    <EditText
+        android:id="@+id/sdrkandung4"
+        android:layout_width="77dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="7dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="number"
+        android:saveEnabled="true"
+        android:textColor="#6B6969"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/sdrkandung3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView17"
+        app:layout_constraintTop_toBottomOf="@+id/sdrkandung"
+        tools:text="isi disini" />
+
+    <EditText
+        android:id="@+id/sdrkandung2"
+        android:layout_width="77dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="9dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="number"
+        android:saveEnabled="true"
+        android:textColor="#6B6969"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/sdrkandung6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView15"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="isi disini" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="18dp"
+        android:fontFamily="@font/umum"
+        android:text="Sdr Kandung Laki-laki"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView14"
+        app:layout_constraintEnd_toStartOf="@+id/sdrkandung2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/umum"
+        android:text="Sdr Kandung Perempuan"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView16"
+        app:layout_constraintEnd_toStartOf="@+id/sdrkandung6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="19dp"
+        android:fontFamily="@font/umum"
+        android:text="Sdr Seayah Laki-laki"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView17"
+        app:layout_constraintEnd_toStartOf="@+id/sdrkandung"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="21dp"
+        android:fontFamily="@font/umum"
+        android:text="Sdr Seayah Perempuan"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintEnd_toStartOf="@+id/sdrkandung4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="14dp"
+        android:fontFamily="@font/umum"
+        android:text="Sdr Seayah Laki-laki"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintEnd_toStartOf="@+id/sdrkandung3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="52dp"
+        android:fontFamily="@font/umum"
+        android:text="Sdr Seayah Perempuan"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/kembali3"
+        app:layout_constraintEnd_toStartOf="@+id/sdrkandung5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
